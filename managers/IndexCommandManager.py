@@ -297,7 +297,6 @@ class IndexCommandManager:
         for inCoins in indexedCoins:
             if inCoins.Locked == False:
                 totalPercentage = totalPercentage + averagePercentage
-                print totalPercentage
                 if totalPercentage > 100:
                    percentageDifference = totalPercentage - 100 
                 else:
