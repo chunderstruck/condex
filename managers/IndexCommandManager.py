@@ -55,7 +55,6 @@ class IndexCommandManager:
             else:
                 totalUnlockedPercentage = totalUnlockedPercentage + inCoins.DesiredPercentage
                 totalUnlockedCoinsCount = totalUnlockedCoinsCount + 1
-	import pdb; pdb.set_trace()
         if totalUnlockedPercentage > float(percentage):
 
             if self.coin_supported_check(coin.upper()):
